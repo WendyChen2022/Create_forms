@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+}
+
+form {
+    width: 400px; 
+    text-align: center;
+}
+#section1 {
+    border: 2px solid #3366cc; 
+    background-color: #f0f0f0; 
+    padding: 10px; 
+}
+
+#section2 {
+    border: 2px solid #87CEEB; 
+    background-color: #FAEBD7; 
+    padding: 10px; 
+}
+
+#section3 {
+    border: 2px solid #87CEEB; 
+    background-color: #F0FFFF; 
+    padding: 10px; 
+}
+
+/* legend */
+legend {
+    font-weight: bold;
+    color: black; 
+}

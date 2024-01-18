@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body onload="init()">
+    <script src="main.js"></script>
+    <form name = "mainFrom" onsubmit="return false">
+        <!-- First Section -->
+        <fieldset id="section1">
+            <legend>User Type</legend>
+            <button onclick="enableNewUser()">Click for New User</button>
+            <button onclick="enableExistingUser()">Click for Existing User</button>
+        </fieldset>
+
+        <!-- Second Section -->
+        <fieldset id="section2" >
+            <legend>New User Information</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <br>
+            <br>
+            <label for="city">City:</label>
+            <input type="text" id="city">
+            <br>
+            <br>
+            <label for="state">State:</label>
+            <input type="text" id="state">
+            <br>
+            <br>
+            <button onclick="loginNewUser()">Login</button>
+        </fieldset>
+
+        <!-- Third Section -->
+    <fieldset id="section3">
+        <legend>Existing User Information</legend>
+        <label for="existingUsername">Username:</label>
+        <input type="text" id="existingUsername">
+        <br>
+        <br>
+        <label for="existingPassword">Password:</label>
+        <input type="password" id="existingPassword">
+        <br>
+        <br>
+        <button onclick="loginExistingUser()">Login</button>
+    </fieldset>
+
+
+    </form>
+    
+    
+</body>
+</html>
